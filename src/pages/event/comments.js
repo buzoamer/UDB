@@ -43,7 +43,7 @@ const Comments = () => {
               <td className="py-2 px-4 border">{comment.email}</td>
               <td className="py-2 px-4 border">{comment.content}</td>
               <td className="py-2 px-4 border">14.06.2023.</td>
-              <td className="py-2 px-4 flex justify-center">
+              <td className="py-2 px-4 flex justify-center border">
                 <Link className="bg-red-500 hover:bg-red-600 text-white py-2 px-4 rounded inline-block" href="#">Delete</Link>
               </td>
             </tr>
