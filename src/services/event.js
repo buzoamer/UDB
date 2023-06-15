@@ -1,4 +1,3 @@
-
 const eventService = {
     create,
     load

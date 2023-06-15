@@ -24,12 +24,7 @@ export default function Register() {
   
       router.push('/login');
   };
-  
 
-  function handleClick() {
-    userService.getAll();
-  }
-  
   return (
     <>
       <Head>
@@ -50,21 +45,17 @@ export default function Register() {
                   className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
                   {...register("name")}
                   placeholder="Enter your name"
-                  type="text"
-                />
+                  type="text"/>
                 <p className="text-red-500"></p>
               </div>
 
               <div className="mb-6">
-                <label className="block mb-2 text-gray-800" htmlFor="email">
-                  Email
-                </label>
+                <label className="block mb-2 text-gray-800" htmlFor="email">Email</label>
                 <input
                   className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
                   {...register("email")}
                   placeholder="Enter your email"
-                  type="email"
-                />
+                  type="email"/>
                 <p className="text-red-500"></p>
               </div>
 
@@ -74,8 +65,7 @@ export default function Register() {
                   className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
                   {...register("password")}
                   placeholder="Enter your password"
-                  type="password"
-                />
+                  type="password"/>
                 <p className="text-red-500"></p>
               </div>
 
@@ -83,7 +73,7 @@ export default function Register() {
                 <button
                   type="submit"
                   className="bg-blue-500 text-white text-center px-2 py-2 rounded hover:bg-blue-600">Submit</button>
-                <span className="text-dark text-sm text-center px-1">Already registered?{" "}
+                    <span className="text-dark text-sm text-center px-1">Already registered?{" "}
                   <Link className="text-blue-500 hover:text-blue-800 underline" href='/login'>Log in here!</Link>
                 </span>
               </div>

@@ -1,17 +1,8 @@
-
-
-const userService = {
-    getAll, 
+const userService = { 
     register,
     login
 }
 
-
-async function getAll(){
-    const res = await fetch('/api/users')
-    const data = await res.json()
-    console.log(data)
-}
 
 async function register(data){
     console.log(JSON.stringify(data))

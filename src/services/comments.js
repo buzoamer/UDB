@@ -1,4 +1,3 @@
-
 const commentService = {
     create,
     load
@@ -10,8 +9,7 @@ async function create(data){
         method:'POST',
         body:JSON.stringify(data)
     })
-    const comm_data = await res.json()
-     return console.log(comm_data)
+    
     return await res.json()
 }
 
