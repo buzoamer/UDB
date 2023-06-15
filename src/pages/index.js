@@ -6,10 +6,9 @@ const LandingPage = () => {
     <>
     <div className="mt-24 pt-2 h-32 grid place-items-center text-center">
         <div className='relative overflow-hidden p-16 mb-12 mt-10 rounded-xl flex flex-col justify-center'>
-          <span className='absolute inset-0 bg-purple-600 animate-pulse'>
+          <span className='absolute inset-0 bg-purple-600 animate-pulse'/>
             <label className='pt-2 py-2 z-20 text-white text-3xl font-bold'>Welcome to Event Manager</label>
             <p className='py-4 text-xl z-20 font-bold text-white'>Manage and organize your events with ease!</p>
-          </span>
         </div>
 
         <div className='grid grid-rows-1 grid-flow-col gap-14 mt-16 text-center'>
