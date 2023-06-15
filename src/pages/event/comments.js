@@ -2,7 +2,6 @@ import Head from 'next/head';
 import Link from 'next/link';
 import React, {useEffect, useState} from 'react';
 import commentService, {load} from '@/services/comments'
-import { comment } from 'postcss';
 
 const Comments = () => {
   const [comments, setcomments] = useState();
