@@ -29,7 +29,7 @@ const Login = () => {
       <div className="mt-16">
         <div className="container mx-auto">
           <div className="max-w-lg py-16 mx-auto">
-            <div className="bg-purple-600 bg-opacity-60 p-14 m-2 rounded-lg shadow-lg shadow-pink-900">
+            <div className="bg-purple-600 bg-opacity-50 p-14 m-2 rounded-lg shadow-lg shadow-pink-800">
               <h2 className="text-center text-white text-2xl font-bold mb-4">Log in form</h2>
               <form onSubmit={handleSubmit(onSubmit)}>
                 <div className="mb-4">
