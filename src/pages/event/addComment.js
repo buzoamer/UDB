@@ -46,7 +46,7 @@ const AddComment = () => {
                       className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
                       placeholder="Enter your comment here"
                       {...register('content')}>
-                      </textarea>
+                    </textarea>
                   <p className="text-red-500"></p>
                 </div>
 

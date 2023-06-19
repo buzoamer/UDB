@@ -57,11 +57,11 @@ const NewEvent = () => {
 
                 <div className="mb-4">
                   <label htmlFor="content" className="block font-medium">Content</label>
-                  <textarea
-                    placeholder="Enter post content"
-                    rows="12"
-                    className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
-                    {...register('content')}>
+                    <textarea
+                      placeholder="Enter post content"
+                      rows="12"
+                      className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
+                      {...register('content')}>
                     </textarea>
                   <p className="text-red-500"></p>
                 </div>

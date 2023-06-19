@@ -48,7 +48,7 @@ const Edit = () => {
                       name="content"
                       rows="12"
                       placeholder="Enter post content">
-                      </textarea>
+                    </textarea>
                   <p className="text-red-500"></p>
                 </div>
                 

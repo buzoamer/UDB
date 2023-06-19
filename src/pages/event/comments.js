@@ -11,7 +11,6 @@ const Comments = () => {
   }
   useEffect(()=> {
     getcomments()
-    console.log(comments)
   }, [])
   return (
     <>

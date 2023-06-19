@@ -11,8 +11,7 @@ async function register(data){
         method:'POST',
         body:JSON.stringify(data)
     })
-
-    return await res.json()
+return await res.json()
 }
 
 async function login(data){
@@ -21,7 +20,7 @@ async function login(data){
         method:'POST',
         body:JSON.stringify(data)
     })
-    return await res.json()
+return await res.json()
 }
 
 

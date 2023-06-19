@@ -9,8 +9,7 @@ async function create(data){
         method:'POST',
         body:JSON.stringify(data)
     })
-
-    return await res.json()
+return await res.json()
 }
 async function load(){
     const res = await fetch('/api/events/load')
