@@ -5,7 +5,6 @@ const userService = {
 
 
 async function register(data){
-    console.log(JSON.stringify(data))
     const res = await fetch('/api/users/register', {
         headers:{"Content-Type": "application/json"},
         method:'POST',

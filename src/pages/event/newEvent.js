@@ -10,9 +10,7 @@ const NewEvent = () => {
   const [message, setMessage] = useState(null)
   const { register, handleSubmit, formState: { errors } } = useForm();
   const onSubmit = async (data) => {
-    console.log(data)
       const event = await eventService.create(data);
-      console.log(event)
       if (event.status === 500) {
         return setMessage(event.message);
       }
@@ -50,7 +48,7 @@ const NewEvent = () => {
                       placeholder="Describe the event"
                       rows="3"
                       className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
-                      {...register('short_description')}>
+                      {...register('shortDescription')}>
                     </textarea>
                   <p className="text-red-500"></p>
                 </div>

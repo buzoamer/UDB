@@ -2,7 +2,6 @@ import React from 'react'
 import Header from './header'
 import Footer from './footer'
 import useIsDashboard from '@/hooks/use-is-dashboard'
-import HomeHeader from './HomeHeader'
 
 export default function Layout({children}) {
   const isDashboard = useIsDashboard()
