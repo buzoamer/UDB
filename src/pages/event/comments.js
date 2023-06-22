@@ -20,9 +20,9 @@ const Comments = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
-      <div className="container mx-auto">
+      <div className="container mx-auto mt-24">
         <div className="flex items-center justify-center py-8">
-          <h1 className="text-2xl font-bold text-black">Comments</h1>
+          <h1 className="text-2xl font-bold text-white">Comments</h1>
         </div>
 
         <table className="min-w-full bg-white border border-gray-200">
