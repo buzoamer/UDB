@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import React from 'react'
+import {MdOutlineArrowBackIosNew} from 'react-icons/md'
 
 const Overview = () => {
   return (
@@ -10,16 +11,18 @@ const Overview = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <div></div>
-      <div className="h-full bg-black grid grid-cols-5 grid-rows-5 gap-7 ml-2 mr-2 mt-2 pb-2 justify-center">
-    <div className="col-span-5 bg-white h-16 ml-64 mr-2 mt-2">
+      <div className="flex flex-grow grid grid-cols-5 grid-rows-5 gap-7 ml-2 mr-2 mt-4 pb-2">
+        <button className='bg-red-200 h-16 mr-2 ml-10 w-16 mt-6 bg-opacity-60 text-white hover:bg-opacity-80 rounded-xl'>Back</button>
+    <div className="col-span-4 bg-white h-16 ml-18 mr-32 mr-2 mt-6">
       <label>TITLE</label>
     </div>
     <div className="col-span-2 row-span-4 row-start-2 bg-blue-500 ml-2 mr-2">IMAGE</div>
     <div className="col-span-3 col-start-3 h-24 row-start-2 bg-teal-500 ml-2 mr-2">SHORT DESCRIPTION</div>
-    <div className="col-span-3 row-span-3 col-start-3 row-start-3 bg-red-400 ml-2 mr-2">CONTENT</div>
+    <div className="col-span-3 row-span-3 col-start-3 row-start-3 bg-red-400 ml-2 mr-2 mt-4">CONTENT</div>
 </div>
     </>
   )
 }
 
 export default Overview
+
