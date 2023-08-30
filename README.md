@@ -12,7 +12,7 @@ yarn dev
 pnpm dev
 ```
 
-The project is using MySQL database, Knex.js for query building, Tailwindcss for styling and Bcrypt for hashing passwords.
+The project is using MySQL database, Knex.js for query building, Tailwindcss for styling, Bcrypt for hashing passwords and it is written in JavaScript.
 
 
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
